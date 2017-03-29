@@ -1,0 +1,287 @@
+➜  rails rails new desafio -d postgresql
+      create  
+      create  README.md
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/config/manifest.js
+      create  app/assets/javascripts/application.js
+      create  app/assets/javascripts/cable.js
+      create  app/assets/stylesheets/application.css
+      create  app/channels/application_cable/channel.rb
+      create  app/channels/application_cable/connection.rb
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/jobs/application_job.rb
+      create  app/mailers/application_mailer.rb
+      create  app/models/application_record.rb
+      create  app/views/layouts/application.html.erb
+      create  app/views/layouts/mailer.html.erb
+      create  app/views/layouts/mailer.text.erb
+      create  app/assets/images/.keep
+      create  app/assets/javascripts/channels
+      create  app/assets/javascripts/channels/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  bin/update
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/cable.yml
+      create  config/puma.rb
+      create  config/spring.rb
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/application_controller_renderer.rb
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/cors.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_framework_defaults.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/apple-touch-icon-precomposed.png
+      create  public/apple-touch-icon.png
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/fixtures/files
+      create  test/fixtures/files/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  tmp
+      create  tmp/.keep
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+      remove  config/initializers/cors.rb
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/..........
+Fetching version metadata from https://rubygems.org/..
+Fetching dependency metadata from https://rubygems.org/.
+Resolving dependencies...
+Using rake 12.0.0
+Using concurrent-ruby 1.0.4
+Using i18n 0.8.0
+Using minitest 5.10.1
+Using thread_safe 0.3.5
+Using builder 3.2.3
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using rack 2.0.1
+Using nio4r 1.2.1
+Using websocket-extensions 0.1.2
+Using mime-types-data 3.2016.0521
+Using arel 7.1.4
+Using bundler 1.13.7
+Using byebug 9.0.6
+Using coffee-script-source 1.12.2
+Using execjs 2.7.0
+Using method_source 0.8.2
+Using thor 0.19.4
+Using debug_inspector 0.0.2
+Using ffi 1.9.17
+Using multi_json 1.12.1
+Using rb-fsevent 0.9.8
+Using pg 0.19.0
+Using puma 3.7.0
+Using sass 3.4.23
+Using tilt 2.0.6
+Using turbolinks-source 5.0.0
+Using tzinfo 1.2.2
+Using nokogiri 1.7.0.1
+Using rack-test 0.6.3
+Using sprockets 3.7.1
+Using websocket-driver 0.6.5
+Using mime-types 3.1
+Using coffee-script 2.4.1
+Using uglifier 3.0.4
+Using rb-inotify 0.9.8
+Using turbolinks 5.0.1
+Using activesupport 5.0.1
+Using loofah 2.0.3
+Using mail 2.6.4
+Using listen 3.0.8
+Using rails-dom-testing 2.0.2
+Using globalid 0.3.7
+Using activemodel 5.0.1
+Using jbuilder 2.6.1
+Using spring 2.0.1
+Using rails-html-sanitizer 1.0.3
+Using activejob 5.0.1
+Using activerecord 5.0.1
+Using spring-watcher-listen 2.0.1
+Using actionview 5.0.1
+Using actionpack 5.0.1
+Using actioncable 5.0.1
+Using actionmailer 5.0.1
+Using railties 5.0.1
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.2.1
+Using jquery-rails 4.2.2
+Using web-console 3.4.0
+Using rails 5.0.1
+Using sass-rails 5.0.6
+Bundle complete! 15 Gemfile dependencies, 62 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+         run  bundle exec spring binstub --all
+* bin/rake: spring inserted
+* bin/rails: spring inserted
+➜  rails cd desafio 
+➜  desafio bundle
+Using rake 12.0.0
+Using concurrent-ruby 1.0.4
+Using i18n 0.8.0
+Using minitest 5.10.1
+Using thread_safe 0.3.5
+Using builder 3.2.3
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using rack 2.0.1
+Using nio4r 1.2.1
+Using websocket-extensions 0.1.2
+Using mime-types-data 3.2016.0521
+Using arel 7.1.4
+Using byebug 9.0.6
+Using coffee-script-source 1.12.2
+Using execjs 2.7.0
+Using method_source 0.8.2
+Using thor 0.19.4
+Using debug_inspector 0.0.2
+Using ffi 1.9.17
+Using multi_json 1.12.1
+Using rb-fsevent 0.9.8
+Using pg 0.19.0
+Using puma 3.7.0
+Using bundler 1.13.7
+Using sass 3.4.23
+Using tilt 2.0.6
+Using turbolinks-source 5.0.0
+Using tzinfo 1.2.2
+Using nokogiri 1.7.0.1
+Using rack-test 0.6.3
+Using sprockets 3.7.1
+Using websocket-driver 0.6.5
+Using mime-types 3.1
+Using coffee-script 2.4.1
+Using uglifier 3.0.4
+Using rb-inotify 0.9.8
+Using turbolinks 5.0.1
+Using activesupport 5.0.1
+Using loofah 2.0.3
+Using mail 2.6.4
+Using listen 3.0.8
+Using rails-dom-testing 2.0.2
+Using globalid 0.3.7
+Using activemodel 5.0.1
+Using jbuilder 2.6.1
+Using spring 2.0.1
+Using rails-html-sanitizer 1.0.3
+Using activejob 5.0.1
+Using activerecord 5.0.1
+Using spring-watcher-listen 2.0.1
+Using actionview 5.0.1
+Using actionpack 5.0.1
+Using actioncable 5.0.1
+Using actionmailer 5.0.1
+Using railties 5.0.1
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.2.1
+Using jquery-rails 4.2.2
+Using web-console 3.4.0
+Using rails 5.0.1
+Using sass-rails 5.0.6
+Bundle complete! 15 Gemfile dependencies, 62 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
+➜  desafio rails g model Post title:string
+Running via Spring preloader in process 4752
+Expected string default value for '--jbuilder'; got true (boolean)
+      invoke  active_record
+      create    db/migrate/20170216190353_create_posts.rb
+      create    app/models/post.rb
+      invoke    test_unit
+      create      test/models/post_test.rb
+      create      test/fixtures/posts.yml
+➜  desafio rake db:create 
+Created database 'desafio_development'
+Created database 'desafio_test'
+➜  desafio rake db:migrate
+== 20170216190353 CreatePosts: migrating ======================================
+-- create_table(:posts)
+   -> 0.0173s
+== 20170216190353 CreatePosts: migrated (0.0174s) =============================
+
+➜  desafio rails c
+Running via Spring preloader in process 4828
+Loading development environment (Rails 5.0.1)
+2.3.3 :001 > p=Post.new(title: "DesafioLatam")
+ => #<Post id: nil, title: "DesafioLatam", created_at: nil, updated_at: nil> 
+2.3.3 :002 > Post.create(title: "Aprendiendo Modelos")
+   (0.3ms)  BEGIN
+  SQL (0.9ms)  INSERT INTO "posts" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["title", "Aprendiendo Modelos"], ["created_at", 2017-02-16 19:08:56 UTC], ["updated_at", 2017-02-16 19:08:56 UTC]]
+   (2.6ms)  COMMIT
+ => #<Post id: 1, title: "Aprendiendo Modelos", created_at: "2017-02-16 19:08:56", updated_at: "2017-02-16 19:08:56"> 
+2.3.3 :003 > p.save
+   (0.3ms)  BEGIN
+  SQL (0.7ms)  INSERT INTO "posts" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["title", "DesafioLatam"], ["created_at", 2017-02-16 19:12:39 UTC], ["updated_at", 2017-02-16 19:12:39 UTC]]
+   (2.2ms)  COMMIT
+ => true 
+2.3.3 :004 > Post.all
+  Post Load (3.0ms)  SELECT "posts".* FROM "posts"
+ => #<ActiveRecord::Relation [#<Post id: 1, title: "Aprendiendo Modelos", created_at: "2017-02-16 19:08:56", updated_at: "2017-02-16 19:08:56">, #<Post id: 2, title: "DesafioLatam", created_at: "2017-02-16 19:12:39", updated_at: "2017-02-16 19:12:39">]> 
+2.3.3 :005 > Post.find_by(title: "Aprendiendo Modelos")
+  Post Load (11.9ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."title" = $1 LIMIT $2  [["title", "Aprendiendo Modelos"], ["LIMIT", 1]]
+ => #<Post id: 1, title: "Aprendiendo Modelos", created_at: "2017-02-16 19:08:56", updated_at: "2017-02-16 19:08:56"> 
+2.3.3 :006 > primero = Post.find(1)
+  Post Load (0.5ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2  [["id", 1], ["LIMIT", 1]]
+ => #<Post id: 1, title: "Aprendiendo Modelos", created_at: "2017-02-16 19:08:56", updated_at: "2017-02-16 19:08:56"> 
+2.3.3 :007 > primero
+ => #<Post id: 1, title: "Aprendiendo Modelos", created_at: "2017-02-16 19:08:56", updated_at: "2017-02-16 19:08:56"> 
+2.3.3 :008 > primero.title
+ => "Aprendiendo Modelos" 
+2.3.3 :009 > 
